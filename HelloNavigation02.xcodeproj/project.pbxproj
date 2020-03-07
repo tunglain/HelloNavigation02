@@ -13,6 +13,7 @@
 		7C05E3C624136FC500626FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C05E3C424136FC500626FD1 /* Main.storyboard */; };
 		7C05E3C824136FC600626FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C05E3C724136FC600626FD1 /* Assets.xcassets */; };
 		7C05E3CB24136FC600626FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C05E3C924136FC600626FD1 /* LaunchScreen.storyboard */; };
+		7C05E3D32413708400626FD1 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05E3D22413708400626FD1 /* Page2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		7C05E3C724136FC600626FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C05E3CA24136FC600626FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C05E3CC24136FC600626FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C05E3D22413708400626FD1 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		7C05E3D4241382D100626FD1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		7C05E3D5241382D100626FD1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				7C05E3C724136FC600626FD1 /* Assets.xcassets */,
 				7C05E3C924136FC600626FD1 /* LaunchScreen.storyboard */,
 				7C05E3CC24136FC600626FD1 /* Info.plist */,
+				7C05E3D22413708400626FD1 /* Page2ViewController.swift */,
 			);
 			path = HelloNavigation02;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 7C05E3B224136FC500626FD1;
 			productRefGroup = 7C05E3BC24136FC500626FD1 /* Products */;
@@ -140,6 +146,7 @@
 			files = (
 				7C05E3C324136FC500626FD1 /* ViewController.swift in Sources */,
 				7C05E3BF24136FC500626FD1 /* AppDelegate.swift in Sources */,
+				7C05E3D32413708400626FD1 /* Page2ViewController.swift in Sources */,
 				7C05E3C124136FC500626FD1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +158,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7C05E3C524136FC500626FD1 /* Base */,
+				7C05E3D4241382D100626FD1 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +167,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7C05E3CA24136FC600626FD1 /* Base */,
+				7C05E3D5241382D100626FD1 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +179,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +240,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
